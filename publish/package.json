@@ -1,0 +1,31 @@
+{
+  "name": "mt-lazy-image",
+  "version": "1.0.0",
+  "description": "lazy image, is a react component that lazy image, build for mobile web app",
+  "keywords": [
+    "lazy image",
+    "react",
+    "mobile"
+  ],
+  "main": "index.js",
+  "files": [
+    "lazy-image",
+    "LICENSE",
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/shenxuxiang/mt-lazy-image/issues"
+  },
+  "author": "https://github.com/shenxuxiang/mt-lazy-image",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
