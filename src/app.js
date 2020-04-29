@@ -19,7 +19,9 @@ export default class App extends PureComponent {
 
   render() {
     return (
-      <div className="container" >
+      <div className="container">
+        <div style={{paddingBottom: 2000}}>往下滑，这里有2000px的 padding-top;目的是测试</div>
+        
         <ul className="mt-goods-list-1" ref={this.containRef1}>
           {
             this.state.source.map(item =>

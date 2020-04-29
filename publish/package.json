@@ -1,6 +1,6 @@
 {
   "name": "mt-lazy-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lazy image, is a react component that lazy image, build for mobile web app",
   "keywords": [
     "lazy image",

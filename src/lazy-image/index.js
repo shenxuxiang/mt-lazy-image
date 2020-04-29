@@ -30,12 +30,13 @@ Image.defaultProps = {
 
 function Image(props) {
   const imageRef = useRef(null);
-  const { defaultsrc, src, container } = props;
+  const { defaultsrc, src, container, alt } = props;
   const propsName = { ...props };
 
   delete propsName.defaultsrc;
   delete propsName.container;
   delete propsName.src;
+  delete propsName.alt;
 
   useEffect(() => {
     if (!container) return;
@@ -46,7 +47,7 @@ function Image(props) {
     };
   }, [container]);
 
-  return <img {...propsName} src={defaultsrc} ref={imageRef} />;
+  return <img {...propsName} alt={alt} src={defaultsrc} ref={imageRef} />;
 }
 
 export default memo(Image)
